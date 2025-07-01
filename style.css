@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.floating-icons {
+    position: relative;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: absolute;
+}
+
+#domains {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.domain-keys button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#contact {
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
