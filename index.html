@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulls & Bears Club</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo" onclick="scrollToTop()">
+        <img src="assets/images/logo.png" alt="Bulls and Bears Logo">
+    </div>
+
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="assets/videos/background-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Bulls & Bears Club</h1>
+        <p>Welcome to our university club where finance meets innovation.</p>
+        <div class="floating-icons">
+            <div class="icon" id="icon1"></div>
+            <div class="icon" id="icon2"></div>
+            <div class="icon" id="icon3"></div>
+        </div>
+    </div>
+
+    <!-- Domain Section -->
+    <section id="domains">
+        <h2>Our Domains</h2>
+        <div class="domain-keys">
+            <button onclick="openBlog('events')">Events Domain</button>
+            <button onclick="openBlog('marketing')">Marketing Domain</button>
+            <button onclick="openBlog('tech')">Tech Domain</button>
+            <button onclick="openBlog('creative')">Creative Domain</button>
+            <button onclick="openBlog('finance')">Finance Domain</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="mailto:osama.bin.laden.201205@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">VIT Email:</label>
+            <input type="email" id="email" name="email" required pattern=".+@vitstudent\.ac\.in">
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Social Media Section -->
+    <footer>
+        <a href="https://www.instagram.com/bullsandbears_vit/" target="_blank">Instagram</a>
+    </footer>
+</body>
+</html>
