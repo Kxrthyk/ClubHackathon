@@ -13,18 +13,13 @@
         <img src="images/logo.png" alt="Bulls and Bears Logo">
     </div>
 
-    <!-- Video Background -->
-    <div class="video-background">
-        <video autoplay muted loop>
-            <source src="videos/background-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+    <!-- Image Background -->
+    <div class="image-background"></div>
 
     <!-- Main Content -->
     <div class="main-content">
         <h1>Bulls & Bears Club</h1>
-        <p>FINANCE.INVEST.PROSPER.</p>
+        <p>FINANCE. INVEST. PROSPER.</p>
         <div class="floating-icons">
             <div class="icon" id="icon1"></div>
             <div class="icon" id="icon2"></div>
@@ -60,5 +55,15 @@
     <footer>
         <a href="https://www.instagram.com/bullsandbears_vit/" target="_blank">Instagram</a>
     </footer>
+
+    <!-- Blog Modal -->
+    <div id="blogModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="blogTitle"></h2>
+            <p id="blogContent"></p>
+        </div>
+    </div>
 </body>
 </html>
+
