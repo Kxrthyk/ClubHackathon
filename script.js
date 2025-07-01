@@ -1,4 +1,3 @@
-```
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -56,4 +55,3 @@ window.onclick = function(event) {
         closeModal();
     }
 }
-```
